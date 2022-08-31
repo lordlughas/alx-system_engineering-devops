@@ -1,3 +1,2 @@
 #!/bin/bash
-pwd /root/alx-systems_engineering-devops/0x00-shell_basics
-
+pwd
