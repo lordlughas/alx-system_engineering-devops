@@ -1,1 +1,2 @@
-This project is illustrates exercises on shell basics with creating scripts
+This project illustrates exercises on shell basics.
+Creating executable scripts of various commands
