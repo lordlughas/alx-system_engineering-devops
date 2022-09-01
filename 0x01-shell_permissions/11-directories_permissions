@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R ugo+rwx 0x01-shell_permissions
+chmod -R ugo+rwxX 0x01-shell_permissions
