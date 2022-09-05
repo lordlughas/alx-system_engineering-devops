@@ -1,1 +1,1 @@
-## This is an exercise on shell prediction
+## This is an exercise on shell redirection
