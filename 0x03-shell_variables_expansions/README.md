@@ -8,3 +8,4 @@ Task4: creates a script that prints environmental variables
 Task5: prints variables and function
 Task6: creates local variable
 Task7: creates a global variable
+Task8: prints the result of the addition 128 to environmental varible-TRUEKNOWLEDGE
