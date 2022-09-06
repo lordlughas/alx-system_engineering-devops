@@ -13,3 +13,4 @@ Task9: prints the result of POWER divided by DIVIDE
 Task10: print the displays of the a result
 Task11: script that converts numbers from base 2 to base 10
 Task12: prints all possible combination of two letters
+Task13: prints a number with two decimal place
