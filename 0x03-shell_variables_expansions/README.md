@@ -15,3 +15,4 @@ Task11: script that converts numbers from base 2 to base 10
 Task12: prints all possible combination of two letters
 Task13: prints a number with two decimal place
 Task14: converts a number from base 10 to base 16
+Task15: encodes and decodes text using the rot13 encription
