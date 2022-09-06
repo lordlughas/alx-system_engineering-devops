@@ -12,3 +12,4 @@ Task8: prints the result of the addition 128 to environmental varible-TRUEKNOWLE
 Task9: prints the result of POWER divided by DIVIDE
 Task10: print the displays of the a result
 Task11: script that converts numbers from base 2 to base 10
+Task12: prints all possible combination of two letters
