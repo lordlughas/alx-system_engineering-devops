@@ -10,3 +10,4 @@ Task6: creates local variable
 Task7: creates a global variable
 Task8: prints the result of the addition 128 to environmental varible-TRUEKNOWLE
 Task9: prints the result of POWER divided by DIVIDE
+Task10: print the displays of the a result
