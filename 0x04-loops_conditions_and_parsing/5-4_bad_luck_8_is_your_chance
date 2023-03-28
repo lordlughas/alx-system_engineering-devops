@@ -13,5 +13,5 @@ do
       else
       echo "Best School"
       fi
-      (($i++)) || true
+      ((i++)) || true
 done
