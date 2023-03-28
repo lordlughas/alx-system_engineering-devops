@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#displays Best School 10times while adding Hi in the 9th line
+
+i=0
+while [ $i -lt 10 ]; do
+      if [ $i -eq 9 ]
+      then
+	 echo "Hi"
+      fi
+      echo "Best School"
+      ((i++))
+done
