@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# install ufw firewall and set up to allow only
+# incoming traffic from SSH, HTTPS SSL, HTTP
+sudo ufw status
+sudo ufw default allow outgoing
+sudo ufw default deny incoming
+sudo ufw allow ssh
+sudo ufw allow 443/tcp comment 'allow HTTPS connections'
+sudo ufw allow 80/tcp comment 'allow apache HTTP'
+sudo ufw enable
+sudo systemctl status ufw.service
