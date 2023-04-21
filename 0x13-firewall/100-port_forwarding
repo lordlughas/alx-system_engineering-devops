@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 # configure server so the firewall redirects port 8080/tcp to port 80/tcp
-sudo iptables -t nat -A PREROUTING -p tcp --dport 8080 -j REDIRECT --to-port 80
+sudo echo "*nat
+:PREROUTING ACCEPT [0:0]
+-A PREROUTING -p tcp --dport 8080 -j REDIRECT --to-port 80
+COMMIT" >> ~/etc/ufw/before.rules
 systemctl status ufw.service
