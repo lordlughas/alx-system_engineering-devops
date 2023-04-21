@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# configure server so the firewall redirects port 8080/tcp to port 80/tcp
+sudo iptables -t nat -A PREROUTING -p tcp --dport 8080 -j REDIRECT --to-port 80
+systemctl status ufw.service
