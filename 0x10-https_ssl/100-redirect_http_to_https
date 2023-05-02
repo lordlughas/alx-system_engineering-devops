@@ -42,7 +42,7 @@ frontend code6ix.tech-http-frontend
         http-request set-header X-Forwarded-Proto http
         default_backend  code6ix.tech-backend
 frontend b3zaleel-alx.tech-https-frontend
-        bind *:443 ssl crt /etc/letsencrypt/live/www.code6ix.tech/fullchain.pem
+        bind *:443 ssl crt /etc/letsencrypt/live/www.nwabueze.tech/fullchain.pem
         http-request set-header X-Forwarded-Proto https
         default_backend code6ix.tech-backend
 backend code6ix.tech-backend
@@ -50,4 +50,4 @@ backend code6ix.tech-backend
         server 152610-web-01 3.90.65.5:80 check
         server 152610-web-02 54.165.186.92:80 check
 # end of parameters
-                                                                                                 51,15         Bot
+                                            
