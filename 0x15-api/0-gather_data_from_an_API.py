@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-"""
-Python script using REST API to return information of TODO list
-"""
-
+"""script using REST API to reurn information of employee ID"""
 import requests
 import sys
 
