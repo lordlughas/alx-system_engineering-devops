@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# bash script to display its own PID
+
+ps -u | pgrep ps
