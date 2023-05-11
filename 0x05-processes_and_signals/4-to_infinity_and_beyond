@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Displays 'To infinit and beyond' indefinitely
+# Requirments: between each iteration of the loop, add a sleep 2
+
+while true
+    do
+        echo To infinity and beyond
+        sleep 2
+    done
